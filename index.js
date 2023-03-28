@@ -55,7 +55,7 @@ client.on('messageCreate', async (message) => {
           detailsCollector.on('collect', (response) => {
             moreDetailsProvided = true;
             // Do something with the details provided by the user
-            message.author.send(`Thank you for sharing ${message.author.username}. There is more to life than just being upset. As a health companion, I am here for you no matter what. I do suggest calling Talk Suicide Canada at 1.833.456.4566 if you require additional help. But here is a virtual hug!`);
+            message.author.send(`Thank you for sharing ${message.author.username}. There is more to life than just being upset. As a healthcare companion, I am here for you no matter what. I do suggest calling Talk Suicide Canada at 1.833.456.4566 if you require additional help. But here is a virtual hug!`);
             message.author.send(`Source: https://tenor.com/view/hug-baymax-bh6-gif-11673006`);
           });
 
